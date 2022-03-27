@@ -18,10 +18,10 @@ body
 .header
 {	
 	opacity: .7;
-	height: 50%;
+	height: 1%;
 	padding: 80px;
 	text-align: center;
-	background: green;
+	background: #85F4ff; 
 	color: white;
 }
 .header .title #logo{
@@ -55,7 +55,7 @@ body
 }
 .navbar a:hover
 {
-	background-color: rgb(29, 139, 62);
+	background-color: #42C2FF;
 }
 /*column container*/
 
@@ -68,7 +68,7 @@ body
 	position: relative;
 	width: 250px;
 	height:77vh;
-	background: green;
+	background: #42C2FF;
 	padding: 30px 0;
 	border-top-right-radius: 90px;
 	opacity: 0.8;
@@ -78,7 +78,7 @@ body
 
 .wrapper .sidemenu h2{
 
-	color: #fff;
+	color: white;
 	text-align: center;
 	margin-bottom: 30px;
 
@@ -92,7 +92,7 @@ body
 }
 
 .wrapper .sidemenu ul li a{
-	color: #bdb8d7;
+	color: black;
 	display: block;
 	text-decoration: none;
 
@@ -100,12 +100,13 @@ body
 
 .wrapper .sidemenu ul li:hover{
 	background: white;
+	color: white;
 	
 }
 
 .wrapper .sidemenu ul li:hover a{
 	color: #fff;
-	color: #56ff38;
+	color: black;
 }
 
 .wrapper .main_content{
@@ -262,7 +263,7 @@ body
   .footer-main
   {
 	  padding: 0;/*some padding*/
-	  width: 1346px;
+	  width: 100%;
 	  height: 150px;
 	  text-align: center;
 	  background: #272727;
@@ -287,7 +288,7 @@ body
 	  height: 50px;
 	  margin: 0px 10px;
 	  border-radius: 100%;
-	  background-color: green;
+	  background-color: #42C2FF;
   }
   .social-icons ul li a
   {
@@ -310,7 +311,7 @@ body
   {
 	  font-family: arial; 
 	  font-size: 14px;
-	  background: green;
+	  background: #42C2FF;
 	  margin-top: 35px;
 	  padding-left: 20px;
 	  padding-top: 0;
@@ -431,8 +432,8 @@ body
 		 background-color: brown;  
 		max-width: 350px;
 		height: 600px;
-	  padding: 50px 50px;
-	  display : inline-block;
+	    padding: 50px 50px;
+	    display : inline-block;
 		text-align: center;
 		font-family: arial; 
 		margin: 0;
@@ -457,7 +458,7 @@ body
 		margin: 0 auto;
 		border-radius: 20px;
 		display: inline-block;
-		margin-left: 60px;
+		margin-left: 140px;
 		
 		float: left;
 		
@@ -484,7 +485,7 @@ body
 		outline: 0;
 		padding: 12px;
 		color: Black;
-		background-color: #39ff33;
+		background-color: #85F4FF;
 		text-align: center;
 		cursor: pointer;
 		width: 80%;
